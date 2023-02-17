@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.bg-color {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.my-journey-heading {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #1e293b;
+  margin-bottom: 30px;
+}
+
+.ccbp-heading {
+  font-family: Roboto;
+  font-size: 40px;
+  color: #171f46;
+  margin-bottom: 30px;
+}
+
+.time-line-container {
+  width: 90%;
+}

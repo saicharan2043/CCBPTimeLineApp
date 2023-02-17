@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.course-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.title {
+  font-family: Roboto;
+  font-size: 40px;
+  color: #1e293b;
+  align-self: center;
+  line-height: 1;
+}
+
+.icon-container {
+  display: flex;
+  align-self: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  align-self: center;
+}
+
+.time-text {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #1e293b;
+  align-self: center;
+  font-weight: bold;
+}
+
+.discription {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+.un-order-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  padding: 0px;
+}
+
+.list {
+  background-color: lightgray;
+  border-radius: 7px;
+  padding: 10px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.list-text {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #1e293b;
+  font-weight: bold;
+}
